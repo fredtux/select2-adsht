@@ -1,0 +1,34 @@
+$remove-color: #888 !default;
+$remove-hover-color: #555 !default;
+$remove-width: 20px !default;
+
+$selection-color: whitesmoke !default;
+
+$border-color: #080808 !default;
+$border-radius: 4px !default;
+
+$focus-border-color: #162235 !default;
+
+$container-height: 28px !default;
+
+$selection-bg-top-color: #080808 !default;
+$selection-bg-bottom-color: #080808 !default;
+
+$container-placeholder-color: #999 !default;
+
+$container-focus-border-color: blue !default;
+
+$selection-opened-bg-top-color: $selection-bg-bottom-color !default;
+$selection-opened-bg-bottom-color: $selection-bg-top-color !default;
+
+$dropdown-z-index: 1 !default;
+
+$dropdown-bg-color: $selection-bg-top-color !default;
+
+$results-max-height: 200px !default;
+$results-nested-padding: 20px !default;
+
+$results-choice-bg-hover-color: rgb(187, 55, 55) !default;
+$results-choice-fg-hover-color: whitesmoke !default;
+
+$results-choice-fg-unselectable-color: #b92632 !default;

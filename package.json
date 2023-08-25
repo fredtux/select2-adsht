@@ -1,0 +1,18 @@
+{
+  "name": "select2-adsht",
+  "version": "1.0.0",
+  "description": "Another select2 darkish theme",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "css:scss": "node-sass --output-style compressed -o dist src/scss"
+  },
+  "author": "Florin Dinu",
+  "license": "MIT",
+  "devDependencies": {
+    "bootstrap": "^5.3.1",
+    "jquery": "^3.7.0",
+    "node-sass": "^9.0.0",
+    "select2": "^4.1.0-rc.0"
+  }
+}

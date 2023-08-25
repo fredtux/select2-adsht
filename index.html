@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another select2 darkish theme</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="node_modules/select2/dist/css/select2.css">
+    <link rel="stylesheet" href="dist/select2-adsht.css">
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="node_modules/select2/dist/js/select2.js"></script>
+
+</head>
+<body>
+    <div class="container">
+        <h1>Another select2 darkish theme</h1>
+        <p>Just add <code>theme: 'select2-adsht'</code> to your select2 options</p>
+        <div class="form-group">
+            <div class="row">
+                <div class="col-6">
+                    <label for="select2-dark">Select2 dark</label>
+                </div>
+                <div class="col-6">
+                    <select class="form-control select2-dark" name="select2-dark">
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                        <option value="5">Option 5</option>
+                        <option value="6">Option 6</option>
+                        <option value="7">Option 7</option>
+                        <option value="8">Option 8</option>
+                        <option value="9">Option 9</option>
+                        <option value="10">Option 10</option>
+                    </select>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-6">
+                    <label for="select2-dark">Select2 groups dark</label>
+                </div>
+                <div class="col-6">
+                    <select class="form-control select2-dark" name="select2-dark">
+                        <optgroup label="Group 1">
+                            <option value="1">Option 1</option>
+                            <option value="2">Option 2</option>
+                            <option value="3">Option 3</option>
+                        </optgroup>
+
+                        <optgroup label="Group 2">
+                            <option value="4">Option 4</option>
+                            <option value="5">Option 5</option>
+                            <option value="6">Option 6</option>
+                            <option value="7">Option 7</option>
+                            <option value="8">Option 8</option>
+                        </optgroup>
+
+                        <optgroup label="Group 2">
+                            <option value="9">Option 9</option>
+                            <option value="10">Option 10</option>
+                        </optgroup>
+                    </select>
+                </div>
+            </div>
+
+            <br>
+
+            <div class="row">
+                <div class="col-6">
+                    <label for="select2-dark">Select2 multiple dark</label>
+                </div>
+                <div class="col-6">
+                    <select class="form-control select2-dark" name="select2-dark" multiple="multiple">
+                        <option value="1">Option 1</option>
+                        <option value="2">Option 2</option>
+                        <option value="3">Option 3</option>
+                        <option value="4">Option 4</option>
+                        <option value="5">Option 5</option>
+                        <option value="6">Option 6</option>
+                        <option value="7">Option 7</option>
+                        <option value="8">Option 8</option>
+                        <option value="9">Option 9</option>
+                        <option value="10">Option 10</option>
+                    </select>
+                </div>
+            </div>
+            
+    </div>
+    
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('.select2-dark').select2({
+                theme: 'select2-adsht'
+            });
+        });
+    </script>
+</body>
+</html>
