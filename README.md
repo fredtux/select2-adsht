@@ -9,7 +9,7 @@
 ## Installation
 
 ### NPM
-Install the package
+Install the [package](https://www.npmjs.com/package/select2-adsht)
 
 ```bash
 npm install select2-adsht

@@ -47,9 +47,14 @@
     background-color: red;
   }
 
-  .select2-results__option--highlighted.select2-results__option--selectable {
+  .select2-results__option--highlighted {
     background-color: $results-choice-bg-hover-color;
     color: $results-choice-fg-hover-color;
+
+    .select2-results__option--selectable{
+      background-color: $results-choice-bg-hover-color;
+      color: $results-choice-fg-hover-color;
+    }
   }
 
   .select2-results__group {

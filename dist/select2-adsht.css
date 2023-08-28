@@ -215,7 +215,12 @@
   background-color: red;
 }
 
-.select2-container--select2-adsht .select2-results__option--highlighted.select2-results__option--selectable {
+.select2-container--select2-adsht .select2-results__option--highlighted {
+  background-color: #bb3737;
+  color: whitesmoke;
+}
+
+.select2-container--select2-adsht .select2-results__option--highlighted .select2-results__option--selectable {
   background-color: #bb3737;
   color: whitesmoke;
 }
