@@ -204,6 +204,7 @@
 .select2-container--select2-adsht .select2-results > .select2-results__options {
   max-height: 200px;
   overflow-y: auto;
+  padding-bottom: 5px;
 }
 
 .select2-container--select2-adsht .select2-results__option--group {
