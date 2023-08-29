@@ -50,11 +50,17 @@
   .select2-results__option--highlighted {
     background-color: $results-choice-bg-hover-color;
     color: $results-choice-fg-hover-color;
+    margin-left: 5px;
+    margin-right: 5px;
 
     .select2-results__option--selectable{
-      background-color: $results-choice-bg-hover-color;
-      color: $results-choice-fg-hover-color;
+      @extend .select2-results__option--highlighted;
     }
+  }
+
+  .select2-results__option{
+    margin-left: 5px;
+    margin-right: 5px;
   }
 
   .select2-results__group {

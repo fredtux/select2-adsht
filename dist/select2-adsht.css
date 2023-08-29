@@ -215,14 +215,16 @@
   background-color: red;
 }
 
-.select2-container--select2-adsht .select2-results__option--highlighted {
+.select2-container--select2-adsht .select2-results__option--highlighted, .select2-container--select2-adsht .select2-results__option--highlighted .select2-results__option--selectable {
   background-color: #bb3737;
   color: whitesmoke;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
-.select2-container--select2-adsht .select2-results__option--highlighted .select2-results__option--selectable {
-  background-color: #bb3737;
-  color: whitesmoke;
+.select2-container--select2-adsht .select2-results__option {
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 .select2-container--select2-adsht .select2-results__group {
